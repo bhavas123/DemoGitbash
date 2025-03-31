@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Leads_003 On Test Start executed]]>
+    </line>
+    <line>
+      <![CDATA[Leads_003 On Test Success executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-26T10:23:15 IST" name="Suite" finished-at="2025-03-26T10:24:06 IST" duration-ms="51018">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_003.Leads_003()[pri:0, instance:testCaseRepo.TC_003@79924b]" name="Leads_003" class="testCaseRepo.TC_003"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC_003.Leads_003()[pri:0, instance:testCaseRepo.TC_003@79924b]" name="Leads_003" class="testCaseRepo.TC_003"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-26T10:23:15 IST" name="Test" finished-at="2025-03-26T10:24:06 IST" duration-ms="51018">
+      <class name="testCaseRepo.TC_003">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:23:15 IST" name="dbConnection" finished-at="2025-03-26T10:23:15 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:23:16 IST" name="launchBrowser" finished-at="2025-03-26T10:23:30 IST" duration-ms="14258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:23:30 IST" name="loginOperation" finished-at="2025-03-26T10:23:38 IST" duration-ms="8249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="Leads_003()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:23:38 IST" name="Leads_003" finished-at="2025-03-26T10:24:03 IST" duration-ms="24933" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Leads_003 On Test Start executed]]>
+            </line>
+            <line>
+              <![CDATA[Leads_003 On Test Success executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Leads_003 -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:24:03 IST" name="logoutOperation" finished-at="2025-03-26T10:24:06 IST" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:24:06 IST" name="closeBrowser" finished-at="2025-03-26T10:24:06 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:testCaseRepo.TC_003@79924b]" started-at="2025-03-26T10:24:07 IST" name="closeDBConnection" finished-at="2025-03-26T10:24:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- testCaseRepo.TC_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
