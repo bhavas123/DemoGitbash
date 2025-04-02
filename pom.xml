@@ -60,7 +60,7 @@
 
 
 	<profile>
-		<id>BatchAll</id>
+		<id>CrossBrowser</id>
 		<build>
 			<plugins>
 				<plugin>
@@ -69,7 +69,7 @@
 					<version>3.5.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng_Groupexecution.xml</suiteXmlFile>
+							<suiteXmlFile>testng_Crossbrowserexecution.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -77,8 +77,30 @@
 		</build>
 	</profile>
 	
+	/profile>
+	
 	<profile>
-		<id>Group</id>
+		<id>Parallel</id>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.5.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng_Parallelexecution.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+	
+	
+	
+	<profile>
+		<id>Smoke</id>
 		<build>
 			<plugins>
 				<plugin>
