@@ -77,7 +77,6 @@
 		</build>
 	</profile>
 	
-	/profile>
 	
 	<profile>
 		<id>Parallel</id>
@@ -97,8 +96,7 @@
 		</build>
 	</profile>
 	
-	
-	
+
 	<profile>
 		<id>Smoke</id>
 		<build>
